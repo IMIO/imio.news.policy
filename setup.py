@@ -58,7 +58,6 @@ setup(
         "imio.news.core",
         "imio.smartweb.locales",
         "collective.autopublishing",
-        "collective.big.bang",
     ],
     extras_require={
         "test": [

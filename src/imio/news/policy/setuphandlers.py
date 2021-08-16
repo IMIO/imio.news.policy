@@ -12,7 +12,7 @@ class HiddenProfiles(object):
     def getNonInstallableProfiles(self):
         """Hide uninstall profile from site-creation and quickinstaller."""
         return [
-            "imio.events.core:default",
+            "imio.news.core:default",
             "imio.news.policy:uninstall",
         ]
 
@@ -22,7 +22,7 @@ class HiddenProducts(object):
     def getNonInstallableProducts(self):
         """Hides profiles from QuickInstaller"""
         return [
-            u"imio.events.core",
+            u"imio.news.core",
         ]
 
 

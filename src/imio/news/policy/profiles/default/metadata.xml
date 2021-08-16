@@ -3,7 +3,7 @@
   <version>1000</version>
   <dependencies>
     <dependency>profile-collective.autopublishing:default</dependency>
-    <dependency>profile-imio.events.core:default</dependency>
+    <dependency>profile-imio.news.core:default</dependency>
     <dependency>profile-plone.restapi:default</dependency>
 
   </dependencies>
