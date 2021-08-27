@@ -8,6 +8,7 @@ from plone.app.testing import (
     PloneSandboxLayer,
 )
 from plone.testing import z2
+from zope.globalrequest import setRequest
 
 import imio.news.policy
 
@@ -26,6 +27,9 @@ class ImioEventsPolicyLayer(PloneSandboxLayer):
         self.loadZCML(package=imio.news.policy)
 
     def setUpPloneSite(self, portal):
+        request = portal.REQUEST
+        # set basic request to be able to handle redirect in subscribers
+        setRequest(request)
         applyProfile(portal, "imio.news.policy:default")
 
 
