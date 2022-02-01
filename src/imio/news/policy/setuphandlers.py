@@ -22,7 +22,7 @@ class HiddenProducts(object):
     def getNonInstallableProducts(self):
         """Hides profiles from QuickInstaller"""
         return [
-            u"imio.news.core",
+            "imio.news.core",
         ]
 
 
