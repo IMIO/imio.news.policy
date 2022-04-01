@@ -58,6 +58,7 @@ setup(
         "collective.autopublishing",
         "collective.big.bang",
         "collective.solr",
+        "collective.z3cform.select2",
         "eea.facetednavigation",
         "pas.plugins.imio",
         "imio.gdpr",
