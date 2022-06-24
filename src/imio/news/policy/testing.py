@@ -7,10 +7,13 @@ from plone.app.testing import (
     IntegrationTesting,
     PloneSandboxLayer,
 )
+from plone.app.testing import layers
 from plone.testing import z2
 from zope.globalrequest import setRequest
 
 import imio.news.policy
+
+layers.DEFAULT_LANGUAGE = "fr"
 
 
 class ImioEventsPolicyLayer(PloneSandboxLayer):
