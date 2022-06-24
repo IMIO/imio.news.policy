@@ -16,7 +16,7 @@ import imio.news.policy
 layers.DEFAULT_LANGUAGE = "fr"
 
 
-class ImioEventsPolicyLayer(PloneSandboxLayer):
+class ImioNewsPolicyLayer(PloneSandboxLayer):
 
     defaultBases = (PLONE_APP_CONTENTTYPES_FIXTURE,)
 
@@ -36,26 +36,26 @@ class ImioEventsPolicyLayer(PloneSandboxLayer):
         applyProfile(portal, "imio.news.policy:default")
 
 
-IMIO_EVENTS_POLICY_FIXTURE = ImioEventsPolicyLayer()
+IMIO_NEWS_POLICY_FIXTURE = ImioNewsPolicyLayer()
 
 
-IMIO_EVENTS_POLICY_INTEGRATION_TESTING = IntegrationTesting(
-    bases=(IMIO_EVENTS_POLICY_FIXTURE,),
-    name="ImioEventsPolicyLayer:IntegrationTesting",
+IMIO_NEWS_POLICY_INTEGRATION_TESTING = IntegrationTesting(
+    bases=(IMIO_NEWS_POLICY_FIXTURE,),
+    name="ImioNewsPolicyLayer:IntegrationTesting",
 )
 
 
-IMIO_EVENTS_POLICY_FUNCTIONAL_TESTING = FunctionalTesting(
-    bases=(IMIO_EVENTS_POLICY_FIXTURE,),
-    name="ImioEventsPolicyLayer:FunctionalTesting",
+IMIO_NEWS_POLICY_FUNCTIONAL_TESTING = FunctionalTesting(
+    bases=(IMIO_NEWS_POLICY_FIXTURE,),
+    name="ImioNewsPolicyLayer:FunctionalTesting",
 )
 
 
-IMIO_EVENTS_POLICY_ACCEPTANCE_TESTING = FunctionalTesting(
+IMIO_NEWS_POLICY_ACCEPTANCE_TESTING = FunctionalTesting(
     bases=(
-        IMIO_EVENTS_POLICY_FIXTURE,
+        IMIO_NEWS_POLICY_FIXTURE,
         REMOTE_LIBRARY_BUNDLE_FIXTURE,
         z2.ZSERVER_FIXTURE,
     ),
-    name="ImioEventsPolicyLayer:AcceptanceTesting",
+    name="ImioNewsPolicyLayer:AcceptanceTesting",
 )

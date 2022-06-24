@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from imio.news.policy.testing import (
-    IMIO_EVENTS_POLICY_ACCEPTANCE_TESTING,
+    IMIO_NEWS_POLICY_ACCEPTANCE_TESTING,
 )  # noqa: E501
 from plone.app.testing import ROBOT_TEST_LEVEL
 from plone.testing import layered
@@ -26,7 +26,7 @@ def test_suite():
             [
                 layered(
                     robottestsuite,
-                    layer=IMIO_EVENTS_POLICY_ACCEPTANCE_TESTING,
+                    layer=IMIO_NEWS_POLICY_ACCEPTANCE_TESTING,
                 ),
             ]
         )
