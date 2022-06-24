@@ -8,7 +8,7 @@
   <include package="z3c.jbot" file="meta.zcml" />
   <browser:jbot
       directory="overrides"
-      layer="imio.news.policy.interfaces.IImioEventsPolicyLayer"
+      layer="imio.news.policy.interfaces.IImioNewsPolicyLayer"
       />
 
   <!-- Publish static files -->

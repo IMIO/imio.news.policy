@@ -2,6 +2,6 @@
 <layers>
   <layer
       name="imio.news.policy"
-      interface="imio.news.policy.interfaces.IImioEventsPolicyLayer"
+      interface="imio.news.policy.interfaces.IImioNewsPolicyLayer"
       />
 </layers>

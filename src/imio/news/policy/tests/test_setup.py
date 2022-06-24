@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """Setup tests for this package."""
-from imio.news.policy.testing import (
-    IMIO_EVENTS_POLICY_INTEGRATION_TESTING,
-)  # noqa: E501
+from imio.news.policy.testing import IMIO_NEWS_POLICY_INTEGRATION_TESTING
 from plone import api
 from plone.app.testing import setRoles, TEST_USER_ID
 from Products.CMFPlone.utils import get_installer
@@ -13,7 +11,7 @@ import unittest
 class TestSetup(unittest.TestCase):
     """Test that imio.news.policy is properly installed."""
 
-    layer = IMIO_EVENTS_POLICY_INTEGRATION_TESTING
+    layer = IMIO_NEWS_POLICY_INTEGRATION_TESTING
 
     def setUp(self):
         """Custom shared utility setup for tests."""
@@ -25,16 +23,16 @@ class TestSetup(unittest.TestCase):
         self.assertTrue(self.installer.is_product_installed("imio.news.policy"))
 
     def test_browserlayer(self):
-        """Test that IImioEventsPolicyLayer is registered."""
-        from imio.news.policy.interfaces import IImioEventsPolicyLayer
+        """Test that IImioNewsPolicyLayer is registered."""
+        from imio.news.policy.interfaces import IImioNewsPolicyLayer
         from plone.browserlayer import utils
 
-        self.assertIn(IImioEventsPolicyLayer, utils.registered_layers())
+        self.assertIn(IImioNewsPolicyLayer, utils.registered_layers())
 
 
 class TestUninstall(unittest.TestCase):
 
-    layer = IMIO_EVENTS_POLICY_INTEGRATION_TESTING
+    layer = IMIO_NEWS_POLICY_INTEGRATION_TESTING
 
     def setUp(self):
         self.portal = self.layer["portal"]
@@ -49,8 +47,8 @@ class TestUninstall(unittest.TestCase):
         self.assertFalse(self.installer.is_product_installed("imio.news.policy"))
 
     def test_browserlayer_removed(self):
-        """Test that IImioEventsPolicyLayer is removed."""
-        from imio.news.policy.interfaces import IImioEventsPolicyLayer
+        """Test that IImioNewsPolicyLayer is removed."""
+        from imio.news.policy.interfaces import IImioNewsPolicyLayer
         from plone.browserlayer import utils
 
-        self.assertNotIn(IImioEventsPolicyLayer, utils.registered_layers())
+        self.assertNotIn(IImioNewsPolicyLayer, utils.registered_layers())

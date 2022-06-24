@@ -10,11 +10,11 @@
 #
 # 1) Start robot server:
 #
-# $ bin/robot-server --reload-path src imio.news.policy.testing.IMIO_EVENTS_POLICY_ACCEPTANCE_TESTING
+# $ bin/robot-server --reload-path src imio.news.policy.testing.IMIO_NEWS_POLICY_ACCEPTANCE_TESTING
 #
 # 2) Run robot tests:
 #
-# $ bin/robot src/imio/events/policy/tests/robot/test_example.robot
+# $ bin/robot src/imio/news/policy/tests/robot/test_example.robot
 #
 # See the http://docs.plone.org for further details (search for robot
 # framework).
