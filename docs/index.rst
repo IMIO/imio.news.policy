@@ -1,5 +1,5 @@
 ====================
-imio.events.policy
+imio.news.policy
 ====================
 
 User documentation

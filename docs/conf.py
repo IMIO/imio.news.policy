@@ -42,7 +42,7 @@ source_suffix = ".rst"
 master_doc = "index"
 
 # General information about the project.
-project = "imio.events.policy"
+project = "imio.news.policy"
 copyright = "Christophe Boulanger (boulch)"
 author = "Christophe Boulanger (boulch)"
 
@@ -199,7 +199,7 @@ html_static_path = ["_static"]
 # html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = "imio.events.policydoc"
+htmlhelp_basename = "imio.news.policydoc"
 
 # -- Options for LaTeX output ---------------------------------------------
 
