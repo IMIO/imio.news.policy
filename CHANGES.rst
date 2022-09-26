@@ -11,6 +11,7 @@ Changelog
 - Update buildout to use Plone 6.0.0a3 packages versions
   [boulch]
 
+- Add GenericSetup caching profile [sverbois]
 
 1.0a1 (2022-01-25)
 ------------------
