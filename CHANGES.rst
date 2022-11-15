@@ -5,6 +5,9 @@ Changelog
 1.0a2 (unreleased)
 ------------------
 
+- Add available languages to prepare for multilingual
+  [laulaz]
+
 - Use collective.z3cform.select2 for taxonomy widget
   [laulaz]
 
