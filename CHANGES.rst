@@ -22,6 +22,7 @@ Changelog
 
 - Add GenericSetup caching profile [sverbois]
 
+
 1.0a1 (2022-01-25)
 ------------------
 
