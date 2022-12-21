@@ -5,7 +5,8 @@ Changelog
 1.1.1 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Fix ugly/deprecated browserlayer Interface
+  [boulch]
 
 
 1.1 (2022-12-20)

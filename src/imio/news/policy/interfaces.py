@@ -6,3 +6,7 @@ from zope.publisher.interfaces.browser import IDefaultBrowserLayer
 
 class IImioNewsPolicyLayer(IDefaultBrowserLayer):
     """Marker interface that defines a browser layer."""
+
+
+class IImioEventsPolicyLayer(IDefaultBrowserLayer):
+    """Temporary ugly/deprecated Interface... to fix."""
