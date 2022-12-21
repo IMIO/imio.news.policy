@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-1.1.1 (unreleased)
+1.1.1 (2022-12-21)
 ------------------
 
 - Fix ugly/deprecated browserlayer Interface
