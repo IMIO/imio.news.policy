@@ -31,7 +31,6 @@ class TestSetup(unittest.TestCase):
 
 
 class TestUninstall(unittest.TestCase):
-
     layer = IMIO_NEWS_POLICY_INTEGRATION_TESTING
 
     def setUp(self):
