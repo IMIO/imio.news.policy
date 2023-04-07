@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-1.1.3 (unreleased)
+1.1.3 (2023-04-07)
 ------------------
 
 - Add module : collective.messagesviewlet
