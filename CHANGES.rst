@@ -5,6 +5,9 @@ Changelog
 1.1.3 (unreleased)
 ------------------
 
+- Add module : collective.messagesviewlet
+  [boulch]
+
 - Migrate to Plone 6.0.2
   [boulch]
 

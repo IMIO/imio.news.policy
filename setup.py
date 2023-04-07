@@ -57,6 +57,7 @@ setup(
         "plone.app.dexterity",
         "collective.autopublishing",
         "collective.big.bang",
+        "collective.messagesviewlet",
         "collective.js.jqueryui",  # TODO : plone6 : remove
         "collective.solr",
         "collective.z3cform.select2",
