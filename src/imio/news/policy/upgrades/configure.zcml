@@ -19,6 +19,14 @@
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
 
+  <genericsetup:registerProfile
+      name="upgrade_1002_to_1003"
+      title="Upgrade policy from 1002 to 1003"
+      directory="profiles/1002_to_1003"
+      description="Hide cropping action on Image type"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
   <genericsetup:upgradeSteps
       source="1000"
       destination="1001"
@@ -41,6 +49,17 @@
         title="Configure autopublishing settings"
         import_profile="imio.news.policy.upgrades:upgrade_1001_to_1002"
         import_steps="plone.app.registry"
+        />
+  </genericsetup:upgradeSteps>
+
+  <genericsetup:upgradeSteps
+      source="1002"
+      destination="1003"
+      profile="imio.news.policy:default">
+    <genericsetup:upgradeDepends
+        title="Hide cropping action on Image type"
+        import_profile="imio.news.policy.upgrades:upgrade_1002_to_1003"
+        import_steps="actions"
         />
   </genericsetup:upgradeSteps>
 
