@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-1.1.4 (unreleased)
+1.1.4 (2023-10-09)
 ------------------
 
 - WEB-3954 : Hide cropping action on Image type
