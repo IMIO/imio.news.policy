@@ -5,6 +5,9 @@ Changelog
 1.1.5 (unreleased)
 ------------------
 
+- WEB-4153: Set moderateCaching for imio.news.core.rest
+  [remdub]
+
 - GHA tests on Python 3.8 3.9 and 3.10
   [remdub]
 
