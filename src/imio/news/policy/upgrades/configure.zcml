@@ -35,6 +35,14 @@
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
 
+  <genericsetup:registerProfile
+      name="upgrade_1004_to_1005"
+      title="Upgrade policy 1004 to 1005"
+      directory="profiles/1004_to_1005"
+      description="Increase caching values"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
   <genericsetup:upgradeSteps
       source="1000"
       destination="1001"
@@ -78,6 +86,16 @@
     <genericsetup:upgradeDepends
         title="Set moderateCaching for imio.news.core.rest"
         import_profile="imio.news.policy.upgrades:upgrade_1003_to_1004"
+        />
+  </genericsetup:upgradeSteps>
+
+  <genericsetup:upgradeSteps
+      source="1004"
+      destination="1005"
+      profile="imio.news.policy:default">
+    <genericsetup:upgradeDepends
+        title="Increase caching values"
+        import_profile="imio.news.policy.upgrades:upgrade_1004_to_1005"
         />
   </genericsetup:upgradeSteps>
 
