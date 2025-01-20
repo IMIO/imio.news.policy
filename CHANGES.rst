@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-1.1.6 (unreleased)
+1.1.6 (2025-01-20)
 ------------------
 
 - WEB-4153: Increase caching values
