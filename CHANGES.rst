@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-1.1.7 (unreleased)
+1.1.7 (2025-05-14)
 ------------------
 
 - Upgrade dev environment to Plone 6.1-latest
