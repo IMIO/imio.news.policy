@@ -5,7 +5,8 @@ Changelog
 1.1.8 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Add upgrade step to install kimug.
+  [bsuttor]
 
 
 1.1.7 (2025-05-14)
