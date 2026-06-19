@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 """Setup tests for this package."""
+
 from imio.news.policy.testing import IMIO_NEWS_POLICY_INTEGRATION_TESTING
 from plone import api
 from plone.app.testing import setRoles, TEST_USER_ID

@@ -4,7 +4,6 @@
 from setuptools import find_packages
 from setuptools import setup
 
-
 long_description = "\n\n".join(
     [
         open("README.rst").read(),
@@ -28,8 +27,6 @@ setup(
         "Framework :: Plone :: 6.1",
         "Programming Language :: Python",
         "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.10",
-        "Programming Language :: Python :: 3.11",
         "Programming Language :: Python :: 3.12",
         "Programming Language :: Python :: 3.13",
         "Operating System :: OS Independent",
@@ -51,7 +48,7 @@ setup(
     package_dir={"": "src"},
     include_package_data=True,
     zip_safe=False,
-    python_requires=">=3.10",
+    python_requires=">=3.12",
     install_requires=[
         "setuptools",
         # -*- Extra requirements: -*-
@@ -66,7 +63,6 @@ setup(
         "collective.solr",
         "collective.z3cform.select2",
         "eea.facetednavigation",
-        "pas.plugins.imio",
         "pas.plugins.kimug",
         "imio.gdpr",
         "imio.news.core",
