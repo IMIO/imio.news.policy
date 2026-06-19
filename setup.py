@@ -15,7 +15,7 @@ long_description = "\n\n".join(
 
 setup(
     name="imio.news.policy",
-    version="1.1.10",
+    version="1.1.11.dev0",
     description="Policies to setup imio.news",
     long_description=long_description,
     # Get more from https://pypi.org/classifiers/
