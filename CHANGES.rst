@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-1.1.10 (unreleased)
+1.1.10 (2026-06-19)
 -------------------
 
 - Migrate to Plone 6.1.4
