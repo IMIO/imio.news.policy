@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-1.1.9 (unreleased)
+1.1.9 (2026-06-19)
 ------------------
 
 - KEYC-77: Remove pas.plugins.imio from dependencies
