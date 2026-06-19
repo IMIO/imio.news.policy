@@ -5,7 +5,8 @@ Changelog
 1.1.10 (unreleased)
 -------------------
 
-- Nothing changed yet.
+- Migrate to Plone 6.1.4
+  [remdub]
 
 
 1.1.9 (2026-06-19)
