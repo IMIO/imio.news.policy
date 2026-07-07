@@ -108,4 +108,13 @@
     profile="imio.news.policy:default"
     />
 
+  <genericsetup:upgradeStep
+      title="Install imio.omnia.tinymce"
+      description="Install imio.omnia.tinymce add-on (Omnia TinyMCE plugin)"
+      source="1006"
+      destination="1007"
+      handler=".upgrades.install_omnia_tinymce"
+      profile="imio.news.policy:default"
+      />
+
 </configure>

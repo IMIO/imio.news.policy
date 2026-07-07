@@ -5,7 +5,8 @@ Changelog
 1.1.11 (unreleased)
 -------------------
 
-- Nothing changed yet.
+- OIA-106 : Install and use imio.omnia.tinymce
+  [boulch]
 
 
 1.1.10 (2026-06-19)
