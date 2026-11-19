@@ -5,7 +5,10 @@ Changelog
 1.1.12 (unreleased)
 -------------------
 
-- Nothing changed yet.
+- Migrate to PEP 420 native namespaces (setuptools 81 / Plone 6.2): remove the
+  ``pkg_resources`` namespace declarations. Let setuptools find the packages
+  and remove the setuptools dependency. Set the Plone 6.2 classifier.
+  [boulch]
 
 
 1.1.11 (2026-07-07)

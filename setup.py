@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """Installer for the imio.news.policy package."""
 
-from setuptools import find_packages
 from setuptools import setup
 
 long_description = "\n\n".join(
@@ -23,12 +22,12 @@ setup(
         "Environment :: Web Environment",
         "Framework :: Plone",
         "Framework :: Plone :: Addon",
-        "Framework :: Plone :: 6.0",
-        "Framework :: Plone :: 6.1",
+        "Framework :: Plone :: 6.2",
         "Programming Language :: Python",
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.12",
         "Programming Language :: Python :: 3.13",
+        "Programming Language :: Python :: 3.14",
         "Operating System :: OS Independent",
         "License :: OSI Approved :: GNU General Public License v2 (GPLv2)",
     ],
@@ -43,14 +42,10 @@ setup(
         # 'Documentation': 'https://imio.news.policy.readthedocs.io/en/latest/',
     },
     license="GPL version 2",
-    packages=find_packages("src", exclude=["ez_setup"]),
-    namespace_packages=["imio", "imio.news"],
-    package_dir={"": "src"},
     include_package_data=True,
     zip_safe=False,
     python_requires=">=3.12",
     install_requires=[
-        "setuptools",
         # -*- Extra requirements: -*-
         "z3c.jbot",
         "plone.api>=1.8.4",
